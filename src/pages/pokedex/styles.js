@@ -46,6 +46,10 @@ const Container = styled.div`
         width: 35px;
         fill: #c7c7c7;
       }
+
+      &:hover {
+        background: #66002d;
+      }
     }
   }
 `;

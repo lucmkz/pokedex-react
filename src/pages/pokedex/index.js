@@ -9,7 +9,7 @@ const Pokedex = () => (
     <h1>Digite o nome ou o número</h1>
     <div>
       <input type="text" />
-      <button>
+      <button type="button">
         <PokedexIcon />
       </button>
     </div>
