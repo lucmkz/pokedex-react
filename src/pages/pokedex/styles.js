@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Container = styled.div`
+export const Container = styled.div`
   background: #fff;
   max-width: 700px;
   border-radius: 4px;
@@ -22,7 +22,7 @@ const Container = styled.div`
     width: 100px;
   }
 
-  div {
+  form {
     display: flex;
     flex: 1;
     width: 100%;
@@ -54,4 +54,15 @@ const Container = styled.div`
   }
 `;
 
-export default Container;
+export const Card = styled.ul`
+  display: flex;
+  max-width: 700px;
+
+  li {
+    padding: 10px;
+    background: #fff;
+    width: 150px;
+    border-radius: 4px;
+    margin: 20px 0;
+  }
+`;
