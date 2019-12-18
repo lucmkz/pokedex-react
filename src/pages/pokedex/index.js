@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Container, Card, SubmitButton } from './styles';
 import { ReactComponent as PokedexLogo } from '../../icons/pokeball.svg';
 import { ReactComponent as PokedexIcon } from '../../icons/pokeball_icon.svg';
+import { pokePictures } from '../../utils';
 import api from '../../services/api';
 
 const Pokedex = () => {
@@ -58,7 +59,8 @@ const Pokedex = () => {
         {repository.map(poke => (
           <li key={poke.name}>
             <h1>{poke.name}</h1>
-            <img src={poke.sprites[0].back_default} alt={poke.name} />
+            {/* <img src={poke.sprites[0].back_default} alt={poke.name} /> */}
+            <img src={pokePictures(poke)} alt={poke.name} />
           </li>
         ))}
       </Card>

@@ -69,14 +69,16 @@ export const SubmitButton = styled.button.attrs(props => ({
       svg {
         animation: ${rotate} 1s infinite;
       }
-    `} /* &:hover {
+    `}
+
+  &:hover {
     background: #66002d;
-  } */
+  }
 `;
 
 export const Card = styled.ul`
   display: flex;
-  max-width: 700px;
+  max-width: 1200px;
   margin: 0 auto;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -89,7 +91,7 @@ export const Card = styled.ul`
     background: #fff;
     width: 150px;
     border-radius: 4px;
-    margin: 20px 0;
+    margin: 20px 20px;
     width: 200px;
 
     h1 {
