@@ -18,10 +18,11 @@ const Pokedex = () => {
   const { repository, loading, pokeNameOrNamber } = pokesStatus;
 
   // const { actualImg } = img;
+  // set interval executando apenas uma vez
   useEffect(() => {
     setInterval(() => {
       setImg(im => {
-        if (im > 1) {
+        if (im >= 6) {
           im = 0;
         }
         return im + 1;
@@ -41,9 +42,19 @@ const Pokedex = () => {
 
     setPokesStatus({ ...pokesStatus, atualPokeData: response });
 
+    const a = Object.values([response.data.sprites][0]);
+
+    // gabiarra para ter sempre a quantidade de itens necessários no array
     const data = {
       name: response.data.name,
-      sprites: Object.values([response.data.sprites][0]).filter(x => x),
+      sprites: Object.values(
+        a.concat(a).concat(
+          a
+            .concat(a)
+            .concat(a)
+            .concat(a)
+        )
+      ).filter(x => x),
     };
 
     setPokesStatus({
