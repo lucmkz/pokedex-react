@@ -20,7 +20,12 @@ const Pokedex = () => {
   // const { actualImg } = img;
   useEffect(() => {
     setInterval(() => {
-      setImg(im => im + 1);
+      setImg(im => {
+        if (im > 1) {
+          im = 0;
+        }
+        return im + 1;
+      });
     }, 1000);
   }, []);
 
