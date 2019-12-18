@@ -1,4 +1,7 @@
-import styled from 'styled-components';
+import styled, { keyframes, css } from 'styled-components';
+
+const rotate = keyframes`
+from { transform: rotate(0deg)} to {transform: rotate(360deg)}`;
 
 export const Container = styled.div`
   background: #fff;
@@ -34,35 +37,67 @@ export const Container = styled.div`
       font-size: 20px;
       text-align: center;
     }
-    button {
-      background: #9a002d;
-      border: 0px;
-      padding: 5px 15px;
-      border-radius: 4px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      svg {
-        width: 35px;
-        fill: #c7c7c7;
-      }
-
-      &:hover {
-        background: #66002d;
-      }
-    }
   }
+`;
+
+export const SubmitButton = styled.button.attrs(props => ({
+  type: 'submit',
+  disabled: props.loading,
+}))`
+  background: #9a002d;
+  border: 0px;
+  padding: 5px 15px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &[disabled] {
+    cursor: not-allowed;
+    opacity: 0.6;
+    color: #fff;
+  }
+
+  svg {
+    width: 35px;
+    fill: #c7c7c7;
+  }
+
+  ${props =>
+    props.loading &&
+    css`
+      svg {
+        animation: ${rotate} 1s infinite;
+      }
+    `} /* &:hover {
+    background: #66002d;
+  } */
 `;
 
 export const Card = styled.ul`
   display: flex;
   max-width: 700px;
+  margin: 0 auto;
+  justify-content: space-around;
+  flex-wrap: wrap;
 
   li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 10px;
     background: #fff;
     width: 150px;
     border-radius: 4px;
     margin: 20px 0;
+    width: 200px;
+
+    h1 {
+      color: #dc0a2d;
+    }
+
+    img {
+      width: 100px;
+    }
   }
 `;

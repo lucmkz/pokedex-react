@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Container, Card } from './styles';
+import { Container, Card, SubmitButton } from './styles';
 import { ReactComponent as PokedexLogo } from '../../icons/pokeball.svg';
 import { ReactComponent as PokedexIcon } from '../../icons/pokeball_icon.svg';
 import api from '../../services/api';
@@ -12,7 +12,7 @@ const Pokedex = () => {
     loading: false,
   });
 
-  const { atualPokeData, repository, loading, pokeNameOrNamber } = pokesStatus;
+  const { repository, loading, pokeNameOrNamber } = pokesStatus;
 
   const handleInputSubmit = e => {
     setPokesStatus({ ...pokesStatus, pokeNameOrNamber: e.target.value });
@@ -38,8 +38,6 @@ const Pokedex = () => {
     });
   };
 
-  console.log(repository);
-
   return (
     <>
       <Container>
@@ -52,9 +50,7 @@ const Pokedex = () => {
             value={pokeNameOrNamber}
             onChange={handleInputSubmit}
           />
-          <button type="submit">
-            <PokedexIcon />
-          </button>
+          <SubmitButton loading={loading}>{<PokedexIcon />}</SubmitButton>
         </form>
       </Container>
 
