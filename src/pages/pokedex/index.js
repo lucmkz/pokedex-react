@@ -77,8 +77,8 @@ const Pokedex = () => {
   return (
     <>
       <Container>
-        {/* <PokedexLogo /> */}
-        {/* <h1>Qual pokémon sua mãe parece?</h1> */}
+        <PokedexLogo />
+        <h1>Qual pokémon sua mãe parece?</h1>
         <form onSubmit={handleSubmit}>
           <input
             focus

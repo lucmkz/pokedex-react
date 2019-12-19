@@ -87,7 +87,6 @@ export const getValidNumber = param => {
 
   if (Number.isInteger(param * 1)) {
     if (param > 802) {
-      console.log(Math.ceil(numberValidForQuery(param)).toString());
       return Math.ceil(numberValidForQuery(param)).toString();
     }
     if (param <= 0) {
