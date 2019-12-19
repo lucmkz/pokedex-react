@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Container, Card, SubmitButton } from './styles';
+import { Container, SubmitButton } from './styles';
+import { Card } from '../../styles';
 import { ReactComponent as PokedexLogo } from '../../icons/pokeball.svg';
 import { ReactComponent as PokedexIcon } from '../../icons/pokeball_icon.svg';
 import { getValidNumber } from '../../utils';
