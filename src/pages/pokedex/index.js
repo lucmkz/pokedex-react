@@ -68,7 +68,7 @@ const Pokedex = () => {
     <>
       <Container>
         <PokedexLogo />
-        <h1>Digite o nome ou o número</h1>
+        <h1>Digite o nome ou o número do Pokémon</h1>
         <form onSubmit={handleSubmit}>
           <input
             type="text"

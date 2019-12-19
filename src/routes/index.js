@@ -7,8 +7,11 @@ import Pokedex from '../pages/pokedex';
 const Routes = () => (
   <BrowserRouter>
     <Switch>
-      {/* <Route path="/list" component={List} /> */}
-      <Route path="/" exact component={Pokedex} />
+      {/* To build on GH-Pages */}
+      <Route path="/pokedex-react/" component={Pokedex} />
+
+      {/* To Dev */}
+      <Route path="/" component={Pokedex} />
     </Switch>
   </BrowserRouter>
 );
