@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/static/js/main.b703aaac.chunk.js",
+    "main.js.map": "/static/js/main.b703aaac.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.05cd4dee.js",
+    "runtime-main.js.map": "/static/js/runtime-main.05cd4dee.js.map",
+    "static/js/2.a8b13ea3.chunk.js": "/static/js/2.a8b13ea3.chunk.js",
+    "static/js/2.a8b13ea3.chunk.js.map": "/static/js/2.a8b13ea3.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.d72c1d6d99fcb6cfc1f26b15db2bb9fc.js": "/precache-manifest.d72c1d6d99fcb6cfc1f26b15db2bb9fc.js",
+    "service-worker.js": "/service-worker.js",
+    "static/js/2.a8b13ea3.chunk.js.LICENSE": "/static/js/2.a8b13ea3.chunk.js.LICENSE",
+    "static/media/pokeball.6058de96.svg": "/static/media/pokeball.6058de96.svg",
+    "static/media/pokeball_icon.dda38142.svg": "/static/media/pokeball_icon.dda38142.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.05cd4dee.js",
+    "static/js/2.a8b13ea3.chunk.js",
+    "static/js/main.b703aaac.chunk.js"
+  ]
+}
