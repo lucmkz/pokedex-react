@@ -80,20 +80,22 @@ export const getValidNumber = param => {
 
   const numberValidForQuery = param => {
     while (param >= 802) {
-      param /= 2;
+      param /= 5;
     }
     return param;
   };
 
   if (Number.isInteger(param * 1)) {
-    if (param <= 0 || param > 802) {
+    if (param > 802) {
       console.log(Math.ceil(numberValidForQuery(param)).toString());
       return Math.ceil(numberValidForQuery(param)).toString();
+    }
+    if (param <= 0) {
+      return '26';
     }
   } else {
     let total = 0;
     param.split('').map(char => (total += charToNumber(char)));
-    console.log(Math.ceil(numberValidForQuery(total)).toString());
     return Math.ceil(numberValidForQuery(total)).toString();
   }
   return param;

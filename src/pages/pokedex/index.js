@@ -18,8 +18,6 @@ const Pokedex = () => {
 
   const { repository, loading, pokeNameOrNamber } = pokesStatus;
 
-  // const { actualImg } = img;
-  // set interval executando apenas uma vez
   useEffect(() => {
     setInterval(() => {
       setImg(im => {
@@ -39,7 +37,18 @@ const Pokedex = () => {
     e.preventDefault();
     setPokesStatus({ ...pokesStatus, loading: true });
 
-    const response = await api.get(getValidNumber(pokeNameOrNamber));
+    let error = '';
+    const handleError = err => {
+      error = err;
+    };
+
+    let response = await api.get(pokeNameOrNamber).catch(handleError);
+
+    if (error) {
+      response = await api
+        .get(getValidNumber(pokeNameOrNamber))
+        .catch(handleError);
+    }
 
     setPokesStatus({ ...pokesStatus, atualPokeData: response });
 
