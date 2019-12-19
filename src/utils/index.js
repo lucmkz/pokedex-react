@@ -87,8 +87,8 @@ export const getValidNumber = param => {
 
   if (Number.isInteger(param * 1)) {
     if (param <= 0 || param > 802) {
-      console.log();
-      return '1';
+      console.log(Math.ceil(numberValidForQuery(param)).toString());
+      return Math.ceil(numberValidForQuery(param)).toString();
     }
   } else {
     let total = 0;
