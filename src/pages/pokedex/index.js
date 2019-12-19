@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Container, Card, SubmitButton } from './styles';
 import { ReactComponent as PokedexLogo } from '../../icons/pokeball.svg';
 import { ReactComponent as PokedexIcon } from '../../icons/pokeball_icon.svg';
+import { getValidNumber } from '../../utils';
 import api from '../../services/api';
 
 const Pokedex = () => {
@@ -38,11 +39,11 @@ const Pokedex = () => {
     e.preventDefault();
     setPokesStatus({ ...pokesStatus, loading: true });
 
-    const response = await api.get(pokeNameOrNamber);
+    const response = await api.get(getValidNumber(pokeNameOrNamber));
 
     setPokesStatus({ ...pokesStatus, atualPokeData: response });
 
-    const a = Object.values([response.data.sprites][0]);
+    const a = Object.values([response.data.sprites][0]) || '';
 
     // gabiarra para ter sempre a quantidade de itens necessários no array
     const data = {
@@ -67,12 +68,13 @@ const Pokedex = () => {
   return (
     <>
       <Container>
-        <PokedexLogo />
-        <h1>Digite o nome ou o número do Pokémon</h1>
+        {/* <PokedexLogo /> */}
+        {/* <h1>Qual pokémon sua mãe parece?</h1> */}
         <form onSubmit={handleSubmit}>
           <input
+            focus
             type="text"
-            placeholder="..."
+            placeholder="Nome ou Número"
             value={pokeNameOrNamber}
             onChange={handleInputSubmit}
           />

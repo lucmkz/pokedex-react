@@ -32,9 +32,9 @@ export const Container = styled.div`
     input {
       width: 100%;
       border: 1px solid #eee;
-      padding: 10px 0px 10px 65px;
+      padding: 15px 0px 10px 65px;
       border-radius: 4px;
-      font-size: 20px;
+      font-size: 15px;
       text-align: center;
     }
   }
