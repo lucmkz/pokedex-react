@@ -83,7 +83,7 @@ const Pokedex = () => {
           <input
             focus
             type="text"
-            placeholder="Nome ou Número"
+            placeholder="Nome e idade"
             value={pokeNameOrNamber}
             onChange={handleInputSubmit}
           />

@@ -10,6 +10,7 @@ export const Container = styled.div`
   margin: 80px auto;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   padding: 30px;
+  text-align: center;
 
   display: flex;
   flex-direction: column;
@@ -32,10 +33,9 @@ export const Container = styled.div`
     input {
       width: 100%;
       border: 1px solid #eee;
-      padding: 15px 0px 10px 65px;
+      padding: 12px 20px;
       border-radius: 4px;
       font-size: 15px;
-      text-align: center;
     }
   }
 `;
