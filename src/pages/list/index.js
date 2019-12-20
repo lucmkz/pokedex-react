@@ -30,11 +30,7 @@ const List = () => {
 
   console.log(repository);
 
-  return (
-    <Card>
-      <li>teste</li>
-    </Card>
-  );
+  return <Card>{/* {repository.map(poke => ())} */}</Card>;
 };
 
 export default List;
