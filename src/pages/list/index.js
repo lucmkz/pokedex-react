@@ -6,31 +6,38 @@ const List = () => {
   const [repository, setRepository] = useState([]);
 
   // setRepository(async () => {});
-  const arr = [];
+  // const arr = [];
   const req = async i => {
     const res = await api.get(i.toString());
-    arr.push(res);
-    // console.log('response', res);
+    // arr = [...arr, { name: res.data.name }];
+    const { name } = res.data;
+    setRepository({
+      repository: [...repository, name],
+    });
+    console.log(repository);
   };
 
-  console.log(arr);
-
   useEffect(() => {
-    for (let i = 1; i < 802; i++) {
+    for (let i = 1; i < 10; i++) {
       req(i);
     }
   }, []);
 
-  useEffect(() => {
-    setRepository({
-      repository: arr,
-    });
-    console.log('repositoryr', repository);
-  }, []);
+  // useEffect(() => {
 
-  console.log(repository);
+  // }, []);
 
-  return <Card>{/* {repository.map(poke => ())} */}</Card>;
+  console.log('repository', repository);
+
+  return (
+    <Card>
+      {repository.map(poke => (
+        <li key={repository.data.id}>
+          <h1>{poke.data.name}</h1>
+        </li>
+      ))}
+    </Card>
+  );
 };
 
 export default List;
