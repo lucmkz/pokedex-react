@@ -79,7 +79,7 @@ const Pokedex = () => {
     <>
       <Container>
         <PokedexLogo />
-        <h1>Qual pokémon sua mãe parece?</h1>
+        <h1>Descubra um pokémon</h1>
         <form onSubmit={handleSubmit}>
           <input
             focus
