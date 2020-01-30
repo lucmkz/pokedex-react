@@ -1,11 +1,5 @@
-<h1 align="center">
-    <img alt="Pokedex-react" src="https://res.cloudinary.com/dwudlwkie/image/upload/v1580427732/print_urj27e.png" />
-    <br>
-    React RocketShoes
-</h1>
-
 <h4 align="center">
-  NetShoes Clone App with React and Redux.
+  A PokeDex with React, using Hooks.
 </h4>
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/lukemorales/react-rocketshoes.svg">
