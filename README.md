@@ -6,18 +6,9 @@
 
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/lukemorales/react-rocketshoes.svg">
 
-  <a href="https://www.codacy.com/app/lukemorales/react-rocketshoes?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=lukemorales/react-rocketshoes&amp;utm_campaign=Badge_Grade">
-    <img alt="Codacy grade" src="https://img.shields.io/codacy/grade/1b577a07dda843aba09f4bc55d1af8fc.svg">
-  </a>
+  <img alt="Repository size" src="https://img.shields.io/github/languages/code-size/Moonkzin/pokedex-react">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/lukemorales/react-rocketshoes.svg">
-  <a href="https://github.com/lukemorales/react-rocketshoes/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/lukemorales/react-rocketshoes.svg">
-  </a>
-
-  <a href="https://github.com/lukemorales/react-rocketshoes/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/lukemorales/react-rocketshoes.svg">
-  </a>
+  <img alt="Repository issues" src="https://img.shields.io/github/issues/lukemorales/react-rocketshoes.svg">
 
   <img alt="GitHub" src="https://img.shields.io/github/license/lukemorales/react-rocketshoes.svg">
 </p>
