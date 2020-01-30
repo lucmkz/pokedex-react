@@ -34,7 +34,7 @@
   <a href="#memo-license">License</a>
 </p>
 
-![App Screenshot](https://res.cloudinary.com/lukemorales/image/upload/v1563042321/readme_logos/rocketshoes_readme_swvhr9.png)
+![App Screenshot](https://res.cloudinary.com/dwudlwkie/image/upload/v1580427732/print_urj27e.png)
 <p align="center">
   <a href="https://rocketshoes.netlify.com/" target="_blank">
     <img alt="Demo on Netlify" src="https://res.cloudinary.com/lukemorales/image/upload/v1563043495/readme_logos/demo_on_netlify_bbuvjz.png">
