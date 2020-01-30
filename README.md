@@ -7,6 +7,8 @@
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Moonkzin/pokedex-react.svg">
 
   <img alt="Repository size" src="https://img.shields.io/github/languages/code-size/Moonkzin/pokedex-react.svg">
+  
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Moonkzin/pokedex-react.svg">
 
   <img alt="Repository issues" src="https://img.shields.io/github/issues/Moonkzin/pokedex-react.svg">
 
