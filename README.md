@@ -2,15 +2,15 @@
   A PokeDex with React, using Hooks.
 </h4>
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/lukemorales/react-rocketshoes.svg">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Moonkzin/pokedex-react.svg">
 
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/lukemorales/react-rocketshoes.svg">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Moonkzin/pokedex-react.svg">
 
   <img alt="Repository size" src="https://img.shields.io/github/languages/code-size/Moonkzin/pokedex-react.svg">
 
-  <img alt="Repository issues" src="https://img.shields.io/github/issues/lukemorales/react-rocketshoes.svg">
+  <img alt="Repository issues" src="https://img.shields.io/github/issues/Moonkzin/pokedex-react.svg">
 
-  <img alt="GitHub" src="https://img.shields.io/github/license/lukemorales/react-rocketshoes.svg">
+  <img alt="GitHub" src="https://img.shields.io/github/license/Moonkzin/pokedex-react.svg">
 </p>
 
 <p align="center">
