@@ -28,9 +28,11 @@
   </h5>
 </p>
 
-<a align="center" href="https://moonkzin.github.io/pokedex-react/" target="_blank">
-  <img alt="Github Pages" src="https://res.cloudinary.com/dwudlwkie/image/upload/v1580429372/Untitled_tatiqv.png">
-</a>
+<p align="center">
+  <a align="center" href="https://moonkzin.github.io/pokedex-react/" target="_blank">
+    <img alt="Github Pages" src="https://res.cloudinary.com/dwudlwkie/image/upload/v1580429372/Untitled_tatiqv.png">
+  </a>
+</p>
 
 
 ## :rocket: Technologies
