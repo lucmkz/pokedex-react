@@ -42,7 +42,6 @@ This project was developed just for study with the technologies:
 -  [ReactJS](https://reactjs.org/)
 -  [React Router v4](https://github.com/ReactTraining/react-router)
 -  [Axios](https://github.com/axios/axios)
--  [Polished](https://polished.js.org/)
 -  [styled-components](https://www.styled-components.com/)
 -  [React-Icons](https://react-icons.netlify.com/)
 -  [VS Code][vc] with [EditorConfig][vceditconfig] and [ESLint][vceslint]
@@ -70,7 +69,7 @@ This project is under the MIT license. See the [LICENSE]() for more information.
 
 ---
 
-Made by Luke Santos :wave: [Get in touch!](https://www.linkedin.com/in/lucasmk/)
+Made by Lucas Santos :wave: [Get in touch!](https://www.linkedin.com/in/lucasmk/)
 
 [nodejs]: https://nodejs.org/
 [yarn]: https://yarnpkg.com/
