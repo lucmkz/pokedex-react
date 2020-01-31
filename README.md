@@ -26,8 +26,8 @@
   <h5 align="center">
     Available on GiHub Pages
   </h5>
-  <a href="https://rocketshoes.netlify.com/" target="_blank">
-    <img alt="Github Pages" src="https://banner2.kisspng.com/20180821/x/kisspng-github-pages-version-control-source-code-mathieu-tremblay-home-5b7c728ba5c4b9.265973831534882443679.jpg">
+  <a href="https://moonkzin.github.io/pokedex-react/" target="_blank">
+    <img alt="Github Pages" src="https://res.cloudinary.com/dwudlwkie/image/upload/v1580429372/Untitled_tatiqv.png">
   </a>
 </p>
 
