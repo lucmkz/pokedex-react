@@ -29,7 +29,7 @@
 </p>
 
 <p align="center">
-  <a align="center" href="https://moonkzin.github.io/pokedex-react/" target="_blank">
+  <a align="center" href="https://lucmkz.github.io/pokedex-react/" target="_blank">
     <img alt="Github Pages" src="https://res.cloudinary.com/dwudlwkie/image/upload/v1580429605/sdsd_qltl17.png">
   </a>
 </p>
