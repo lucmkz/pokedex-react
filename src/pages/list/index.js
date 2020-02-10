@@ -14,11 +14,11 @@ const List = () => {
     setRepository({
       repository: [...repository, name],
     });
-    console.log(repository);
+    // console.log(repository);
   };
 
   useEffect(() => {
-    for (let i = 1; i < 10; i++) {
+    for (let i = 1; i < 10; i += 1) {
       req(i);
     }
   }, []);
@@ -27,15 +27,15 @@ const List = () => {
 
   // }, []);
 
-  console.log('repository', repository);
+  // console.log('repository', repository);
 
   return (
     <Card>
-      {repository.map(poke => (
+      {/* {repository.map(poke => (
         <li key={repository.data.id}>
           <h1>{poke.data.name}</h1>
         </li>
-      ))}
+      ))} */}
     </Card>
   );
 };
