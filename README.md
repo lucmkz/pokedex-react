@@ -35,20 +35,20 @@
 </p>
 
 
-## :rocket: Technologies
+## :rocket: Técnologias
 
-This project was developed just for study with the technologies:
+-  [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+-  [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+-  [JavaScript](https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript)
 
--  [ReactJS](https://reactjs.org/)
--  [React Router v4](https://github.com/ReactTraining/react-router)
--  [Axios](https://github.com/axios/axios)
--  [styled-components](https://www.styled-components.com/)
--  [React-Icons](https://react-icons.netlify.com/)
--  [VS Code][vc] with [EditorConfig][vceditconfig] and [ESLint][vceslint]
+## :rocket: Time
 
-## :information_source: How To Use
+🕺 Fabiano Lanzoni
+🕺 Lucas Duarte
+💃 Michele
+🕺 Messias
 
-To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v10.16][nodejs] or higher + [Yarn v1.13][yarn] or higher installed on your computer. From your command line:
+## :information_source: Time
 
 ```bash
 # Clone this repository
