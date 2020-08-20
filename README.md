@@ -35,19 +35,6 @@
 </p>
 
 
-## :rocket: Técnologias
-
--  [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
--  [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
--  [JavaScript](https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript)
-
-## :rocket: Time
-
-🕺 Fabiano Lanzoni
-🕺 Lucas Duarte
-💃 Michele
-🕺 Messias
-
 ## :information_source: Time
 
 ```bash
